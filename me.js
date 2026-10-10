@@ -28,10 +28,10 @@ const age = 37;
 const isStudent = true;
 
 let phrase = "likes ";
-let phrase2 = "loves ";
-let phrase3 = "in the ";
+let phrase2 = "loves";
+let phrase3 = "in the";
 
-console.log(name + " " + age + phrase + favoriteFood);
+console.log(name + " " + age + " " + phrase + favoriteFood);
 console.log(`${name} ${age} ${phrase2} ${favoriteFood} ${phrase3} ${favoriteSeason}.`);
 // 1. Which data type was easiest to choose? Why?
 // Ans: Any charachter will end up being a string for this one.
