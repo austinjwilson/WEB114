@@ -1,4 +1,4 @@
-use strict;
+"use strict";
 
 // Setting Floating Sky City
 const setting = "floating sky city";
