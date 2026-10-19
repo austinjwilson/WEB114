@@ -5,14 +5,14 @@ const setting = "floating sky city";
 
 //Welcome Message
 alert(`Welcome, brave traveler to the ${setting}! 
-I'm your guide Austin, and I'll help you create your own hero`);
+I'm your guide Austin, and I'll help you create your own hero.`);
 
 //Character Name Assignment
 const charName = prompt("What is your character's name?, Wanderer")?.trim() || "Wanderer";
 
 //Pet Type Assignment
 const petType = prompt(`What kind of pet or companion does ${charName} have? 
-    (ex: wolf, dragon, or robot)`);
+(ex: wolf, dragon, or robot)`);
 
 //Superpower
 const superPower = prompt(`What superpower does ${charName} have?`);
@@ -20,8 +20,8 @@ const superPower = prompt(`What superpower does ${charName} have?`);
 //Years of Training
 
 //Prompt before conversion
-const trainingYearsQuestion = prompt(`How many years has ${charName} been trainging?
-    (Enter a number)`);
+const trainingYearsQuestion = prompt(`How many years has ${charName} been training?
+(Enter a number)`);
 
 //String to Number conversion
 const traingingYears = Number(trainingYearsQuestion);
@@ -33,8 +33,8 @@ const powerLevel = traingingYears * 10;
 
 //Likes Fighting Monsters
 const likesFighting = confirm(`Does ${charName} like fighting monsters?
-    Click OK for YES
-    Click Cancel for NO`);
+Click OK for YES
+Click Cancel for NO`);
 
 console.log(likesFighting, typeof likesFighting);
 
