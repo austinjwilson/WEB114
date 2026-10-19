@@ -20,8 +20,7 @@ const superPower = prompt(`What superpower does ${charName} have?`);
 //Years of Training
 
 //Prompt before conversion
-const trainingYearsQuestion = prompt(`How many years has ${charName} been training?
-(Enter a number)`);
+const trainingYearsQuestion = prompt(`How many years has ${charName} been training? (Enter a number)`);
 
 //String to Number conversion
 const traingingYears = Number(trainingYearsQuestion);
@@ -53,7 +52,6 @@ Power Level: ${powerLevel}
 Monster Fighter? ${likesFighting ? "Yes" : "No"}
 
 ${charName} lives in a ${setting}, where amazing adventures await.
-With a ${petType} by their side, ${charName} uses the incredible power of ${superPower} to protect the city
-and its people.
+With a ${petType} by their side, ${charName} uses the incredible power of ${superPower} to protect the city and its people.
 
 ====================================`);
