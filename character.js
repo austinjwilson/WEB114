@@ -20,7 +20,7 @@ const superPower = prompt(`What superpower does ${charName} have?`);
 //Years of Training
 
 //Prompt before conversion
-const trainingYearsQuestion = prompt(`How many years has ${charName} been trainging?
+const trainingYearsQuestion = prompt(`How many years has ${charName} been training?
     (Enter a number)`);
 
 //String to Number conversion
