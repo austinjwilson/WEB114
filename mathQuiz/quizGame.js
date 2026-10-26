@@ -65,6 +65,14 @@ if (favColorQuestion === null) {
     alert("You didn't enter a color. No point awarded for this question.");
 } else {
     favColorQuestion = favColorQuestion.trim().toLowerCase();
+
+    // Check if the answer is correct
+    if (favColorQuestion === "blue") {
+        alert("Correct! Blue is a great color.");
+        score++;
+    } else {
+        alert("Wrong! The correct answer is blue.");
+    }
 }
 // Calculate percentage using math
 const total = (score / 5) * 100;
@@ -84,3 +92,5 @@ if (score >= 4) {
 }
 // Final summary alert
 alert(`Your score is ${score} out of 5. Your percentage is ${total}%.`);
+
+console.log(`Final score: ${score}, Percentage: ${total}`);
