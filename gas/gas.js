@@ -1,3 +1,9 @@
+/*
+Author: Austin Wilson
+Date: 11/15/2026
+Project: Gas Average Calculator
+*/
+
 'use strict';
 
 // Ask user for name
