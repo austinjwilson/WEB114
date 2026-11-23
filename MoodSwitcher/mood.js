@@ -51,7 +51,7 @@ function handleMoodButtonClick(moodClick) {
 
         //Conole log tests
         console.log("Mood selected: " + mood);
-        console.log("Mood settings: " + moodSettings);
+        console.log("Mood settings: ", moodSettings);
     }
 }
 
