@@ -44,10 +44,10 @@ function handleMoodButtonClick(moodClick) {
         // C Find the mood settings
         const moodSettings = moods[mood];
         // Step 3b: Update Page
-        document.body.style.backgroundColor = mood.bg;
-        document.body.style.color = mood.text;
-        quoteDisplay.textContent = mood.message;
-        titleDisplay.textContent = mood.name;
+        document.body.style.backgroundColor = moodSettings.bg;
+        document.body.style.color = moodSettings.text;
+        quoteDisplay.textContent = moodSettings.message;
+        titleDisplay.textContent = moodSettings.name;
 
         //Conole log tests
         console.log("Mood selected: " + mood);
