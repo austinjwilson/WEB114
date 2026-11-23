@@ -46,12 +46,12 @@ function handleMoodButtonClick(moodClick) {
         // Step 3b: Update Page
         document.body.style.backgroundColor = mood.bg;
         document.body.style.color = mood.text;
-        quoteDisplay.textContent = quote;
+        quoteDisplay.textContent = mood.message;
         titleDisplay.textContent = mood.name;
 
         //Conole log tests
-        console.log("Mood selected: " + moodName);
-        console.log("Mood settings: " + mood);
+        console.log("Mood selected: " + mood);
+        console.log("Mood settings: " + moodSettings);
     }
 }
 
