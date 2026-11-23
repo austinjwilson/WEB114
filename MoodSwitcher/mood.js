@@ -3,9 +3,9 @@
 "use strict";
 
 // Step 1 Select Emelents
-const quoteDisplay = document.getElementById("quote");
-const titleDisplay = document.getElementById("title");
-const buttonContainer = document.getElementById("buttons");
+const quoteDisplay = document.querySelector("#quote");
+const titleDisplay = document.querySelector("#title");
+const buttonContainer = document.querySelector("#buttons");
 
 // Step 2 Create Data Object
 const moods = {
@@ -54,3 +54,6 @@ function handleMoodButtonClick(moodClick) {
         console.log("Mood settings: " + mood);
     }
 }
+
+//Step 4: Event Listener
+buttonContainer.addEventListener("click", handleMoodButtonClick);
